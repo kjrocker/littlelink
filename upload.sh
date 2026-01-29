@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avz --delete --include-from=.rsyncinclude . personal:/var/www/links
+rsync -avz --delete --include-from=.rsyncinclude --exclude='*' . personal:/var/www/links
